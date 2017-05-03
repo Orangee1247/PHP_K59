@@ -24,7 +24,7 @@ Route::get('/', function () {
     return view('tasks', [
         'tasks' => $tasks
     ]);
-});
+}); 
 
 /**
  * Add New Task
